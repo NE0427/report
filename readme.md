@@ -39,3 +39,7 @@
 ![螢幕擷取畫面 3](https://github.com/user-attachments/assets/6198f35b-dae9-458c-b483-fdb2f58364b0)
 
 分析：系統管理員，直接從後台登陸系統，等待身份驗證成功之後，他可以對資料庫修改和維護，修改成功之後，資料庫給系統返回更新成功訊息，系統給管理員返回修改成功訊息。
+
+六、參考資料
+
+(https://blog.csdn.net/guleilei0/article/details/124869573?spm=1001.2014.3001.5502)
