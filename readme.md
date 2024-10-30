@@ -22,12 +22,16 @@
 五、實驗過程
 </h2>
 1.對於學生對象
-![螢幕擷取畫面1](https://github.com/user-attachments/assets/cef7051c-5591-4448-b72a-5ab6c4ca2871)
+
+![螢幕擷取畫面1](https://github.com/user-attachments/assets/0dedf2a3-8527-4800-952a-61d96da0607a)
+
 
 分析：學生先要登入網站，輸入正確的資訊驗證成功，才能web介面，例如他要瀏覽訊息，先請求web取得訊息，web接著發送訊息給system，system再發送訊息給database，database根據指令找到對應的訊息，逐步回傳訊息，最後回傳給學生。
 
 2.對於教師對象
-![螢幕擷取畫面2](https://github.com/user-attachments/assets/1c56d4cd-5b9b-4166-9386-a6a979d8b240)
+
+![螢幕擷取畫面2](https://github.com/user-attachments/assets/a5b709c7-b338-4aa0-858f-66fb01d45cb5)
+
 
 分析：教師要先登入網站，等待驗證成功之後，進入web介面，然後發布訊息給web，web再傳到system，system儲存到database,成功之後，database返回保存成功訊息給system，system返回上傳成功訊息 給web，web再回發布訊息成功給教師。
 
